@@ -1,0 +1,116 @@
+
+.calculadora {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 500px;
+}
+
+#resultado {
+  display: block;
+  width: 100%;
+  height: 8vh;
+  font-size: 50px;
+  margin-bottom: 20px;
+  /* border: 1px solid rgb(186, 186, 186); */
+  border-radius: 10px;
+  text-align: right;
+}
+
+#resultado2 {
+  display: block;
+  width: 100%;
+  height: 30px;
+  font-size: 25px;
+  /* border: 1px solid rgb(186, 186, 186); */
+  border-radius: 10px;
+  text-align: right;
+}
+
+button {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50px;
+  -webkit-box-shadow: 6px 5p x 9px -3px rgba(163, 163, 163, 1);
+  -moz-box-shadow: 6px 5px 9px -3px rgba(163, 163, 163, 1);
+  box-shadow: 6px 5px 9px -3px rgba(163, 163, 163, 1);
+}
+
+button:active {
+  -webkit-box-shadow: inset 6px 5px 9px -3px rgba(163, 163, 163, 1);
+  -moz-box-shadow: inset 6px 5px 9px -3px rgba(163, 163, 163, 1);
+  box-shadow: inset 6px 5px 9px -3px rgba(163, 163, 163, 1);
+}
+
+button:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.calculadora td button {
+  display: block;
+  width: 70px;
+  height: 70px;
+  font-size: 23px;
+  margin: 5px;
+}
+
+#suma {
+  background-color: #ef8f0b;
+}
+#resta {
+  background-color: #ef8f0b;
+}
+#multiplicacion {
+  background-color: #ef8f0b;
+}
+
+#division {
+  background-color: #ef8f0b;
+}
+
+#igual {
+  background-color: #ef8f0b;
+}
+
+#suma:hover {
+  background-color: #f6c27a;
+}
+#resta:hover {
+  background-color: #f6c27a;
+}
+#multiplicacion:hover {
+  background-color: #f6c27a;
+}
+
+#division:hover {
+  background-color: #f6c27a;
+}
+
+#igual:hover {
+  background-color: #f6c27a;
+}
+
+#memoryStorage {
+  background-color: #d1d1d1;
+}
+
+#memoryRecall {
+  background-color: #d1d1d1;
+}
+
+#reset {
+  background-color: #d1d1d1;
+}
+#reset:hover {
+  background-color: #e8e8e8;
+}
+#memoryRecall:hover {
+  background-color: #e8e8e8;
+}
+#memoryStorage:hover {
+  background-color: #e8e8e8;
+}
+
+#cero {
+  width: 200%;
+}
